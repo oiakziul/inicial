@@ -225,9 +225,4 @@ body{
     position: fixed;
     top: 2.99%;
     left: 70px;
-    text-shadow:
-     var(--cor-primaria) 0 0 5px,
-     var(--cor-terciaria) 0 0 15px,
-     var(--cor-terciaria) 0 0 25px,
-     var(--cor-terciaria) 0 0 35px;
 }
