@@ -107,7 +107,6 @@ body{
     background-color: var(--cor-secundaria);
     cursor:pointer;
     color: var(--cor-terciaria);
-    animation: pulse 1.80s infinite; ;
 }
 .apresentacao__links__link>img:hover{
     width: 32px;
@@ -167,10 +166,6 @@ body{
     border: var(--cor-terciaria) 4px solid;
     box-shadow: 0px 1.90px 10px 4px var(--cor-terciaria); 
 
-}
-@keyframes pulse {
-    0%, 90% {transform: scale(1);}
-    40% {transform: scale(1.055);}
 }
 
 @keyframes fadeIn {
