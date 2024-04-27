@@ -227,6 +227,6 @@ body{
     left: 70px;
 }
 .fundo__branco{
-    position: fixed;
-    left: 570px;
+    
+    margin-left: 570px;
 }
