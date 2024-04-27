@@ -226,3 +226,7 @@ body{
     top: 2.99%;
     left: 70px;
 }
+.fundo__branco{
+    position: fixed;
+    left: 570px;
+}
