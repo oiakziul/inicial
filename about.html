@@ -3,10 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre mim</title>
+    <title>Portifolio</title>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="shortcut icon" href="IMG/assets-icons/Favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="Medias__style.css">
+    <script src="aa.js"></script>
 </head>
 
 <body>
@@ -18,7 +21,9 @@
     </header>
 
     <main class="apresentacao">
-        <p id="time"></p>
+        <section>
+            <p id="time"></p> 
+        </section>
         <div class="mae-anuncio">
             <a href="https://wa.me/5521969452115" target="_blank">
                 <img class="anuncio" src="IMG/assets-icons/construcao.jpg" alt="Em construção ...">
@@ -37,28 +42,31 @@
                 assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum
                 necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum
                 rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut.
-                reiciendis voluptatibus maiores alias consequatur aut.
+                dis voluptatibus maiores alias consequatur aut.
             </p>
-            <p>
-            </p>
+                
+                <h1 id="js"> </h1>
+                <h1 id="js2"> </h1>
+            </div>
         </section>
-        <div id="borda__img">
-            <img class="imgk" src="IMG/IMM.PNG" alt="Foto do kaio"> <br> <br>
-        </div>
+        
+            <img class="apresentacao__imagem" src="IMG/IMM.PNG" alt="Foto do kaio"> <br> <br>
     </main>
-    <footer>
-        <footer class="rodape">
-            <address></address>
-            <p>Desenvolvido por Kaio.</p>
-        </footer>
+    <footer class="rodape">
+        <address></address>
+        <p>Desenvolvido por Kaio.</p>
     </footer>
+    <script>
+   
+    </script>
+    <script>
+        setInterval(atualizarHora, 1000); // Atualiza a cada segundo
+        modificar__texto(); 
+        modificar__texto2();
+        ipLocal();  
+        
+    </script>
+
 </body>
-<script>
-    function atualizarHora() {
-        let horaAtual = new Date().toLocaleTimeString();
-        document.getElementById("time").innerText = horaAtual;
-    }
-    setInterval(atualizarHora, 1000); // Atualiza a cada segundo
-</script>
 
 </html>
