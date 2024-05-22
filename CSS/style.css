@@ -238,4 +238,7 @@ body{
     .mae-anuncio{
         left: 6%;
     }
+    .apresentacao__links__navegacao{
+        width: 100%;
+    }
   }
