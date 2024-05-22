@@ -245,6 +245,7 @@ body{
         min-width: 80%;
     }
     .mae-anuncio{
+	position:static;
         left: 2%;
         top:1%;
     }
