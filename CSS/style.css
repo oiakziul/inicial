@@ -11,6 +11,7 @@
 *{
     margin: 0;
     padding: 0;
+    scrollbar-width: none;
 }
 
 *::selection {
@@ -226,5 +227,9 @@ body{
     }
     .apresentacao__conteudo{
         width: auto;
+    }
+    .apresentacao__imagem{
+        width: 50%;
+        margin-top: -55% ;
     }
   }
