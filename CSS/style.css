@@ -212,11 +212,11 @@ body{
         opacity: 0;
     }
 }
-
+/* sobre @media querry, se a tela chegar nesta resolução ''execute o codigo abaixo' somente quando a condição for verdadeira*/
 @media  (max-width: 1144px) {
 
     .cabecalho{
-        padding: 10%;
+        padding: 20%;
     }
     .cabecalho__menu{
         justify-content: center;
