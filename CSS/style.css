@@ -217,6 +217,7 @@ body{
 
     .cabecalho{
         padding: 20%;
+        text-wrap: nowrap;
     }
     .cabecalho__menu{
         justify-content: center;
@@ -242,5 +243,9 @@ body{
   @media (max-width:500px){
     .apresentacao__links__navegacao{
         min-width: 80%;
+    }
+    .mae-anuncio{
+        left: 2%;
+        top:1%;
     }
   }
