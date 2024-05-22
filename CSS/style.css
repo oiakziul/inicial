@@ -238,7 +238,9 @@ body{
     .mae-anuncio{
         left: 6%;
     }
+  }
+  @media (max-width:500px){
     .apresentacao__links__navegacao{
-        width: 100%;
+        min-width: 80%;
     }
   }
