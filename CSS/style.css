@@ -197,7 +197,7 @@ body{
     float: left;
     position: fixed;
     top: 4.46%;
-    left: 10%;
+    left: 4%;
 }
 @keyframes fadeIn {
     0% {
@@ -212,7 +212,7 @@ body{
         opacity: 0;
     }
 }
-/* sobre @media querry, se a tela chegar nesta resolução ''execute o codigo abaixo' somente quando a condição for verdadeira*/
+
 @media  (max-width: 1144px) {
 
     .cabecalho{
@@ -229,7 +229,13 @@ body{
         width: auto;
     }
     .apresentacao__imagem{
-        width: 50%;
+        width: 75%;
         margin-top: -55% ;
+    }
+    #time{
+        display: none;
+    }
+    .mae-anuncio{
+        left: 6%;
     }
   }
