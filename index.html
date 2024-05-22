@@ -8,6 +8,8 @@
     <title>Portifolio</title>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="shortcut icon" href="IMG/assets-icons/Favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="Medias__style.css">
+    <script src="aa.js"></script>
 </head>
 
 <body>
@@ -17,16 +19,16 @@
             <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
         </nav>
     </header>
-    
+
     <main class="apresentacao">
-    <section>
-        <p id="time"></p>
+        <section>
+            <p id="time"></p> 
         </section>
         <div class="mae-anuncio">
             <a href="https://wa.me/5521969452115" target="_blank">
                 <img class="anuncio" src="IMG/assets-icons/construcao.jpg" alt="Em construção ...">
             </a>
-        </div>  
+        </div>
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível<strong
                     class="titulo-destaque"> com um Front-end de qualidade!
@@ -38,38 +40,43 @@
                 conversar?</p>
             <div class="apresentacao__links">
                 <h2 class="apresentacao__links__subtitulos">Acesse as minhas redes:</h2>
-                <a class="apresentacao__links__link" target="_blank" href="https://github.com/oiakziul">
-                    <img class="fundo__branco" src="IMG/assets-icons/github.png"
-                        alt="Carregando...">
+                <a class="apresentacao__links__navegacao" target="_blank" href="https://github.com/oiakziul">
+                    <img class="fundo__branco" src="IMG/assets-icons/github.png" alt="Carregando...">
                     GitHub
                 </a>
-                <a class="apresentacao__links__link" target="_blank"  href="https://www.linkedin.com/in/kaio-l-433767230/">
-                    <img class="fundo__branco" src="IMG/assets-icons/linkedin.png"
-                        alt="Carregando...">
+                <a class="apresentacao__links__navegacao" target="_blank"
+                    href="https://www.linkedin.com/in/kaio-l-433767230/">
+                    <img class="fundo__branco" src="IMG/assets-icons/linkedin.png" alt="Carregando...">
                     LinkedIn
                 </a>
-                <a class="apresentacao__links__link" target="_blank" href="https://www.instagram.com/kaio_luiz_/">
-                    <img class="fundo__branco" src="IMG/assets-icons/instagram.png"
-                        alt="Carregando...">
+                <a class="apresentacao__links__navegacao" target="_blank" href="https://www.instagram.com/kaio_luiz_/">
+                    <img class="fundo__branco" src="IMG/assets-icons/instagram.png" alt="Carregando...">
                     Instagram
                 </a>
+                
+                <h1 id="js"> </h1>
+                <h1 id="js2"> </h1>
             </div>
         </section>
-        <div id="borda__img">
-            <img class="imgk" src="IMG/IMM.PNG" alt="Foto do kaio"> <br> <br>
-        </div>
+        
+            <img class="apresentacao__imagem" src="IMG/IMM.PNG" alt="Foto do kaio"> <br> <br>
     </main>
     <footer class="rodape">
-        <address></address><p>Desenvolvido por Kaio.</p>
+        <address></address>
+        <p>Desenvolvido por Kaio.</p>
     </footer>
     <script>
-        function atualizarHora() {
-            let horaAtual = new Date().toLocaleTimeString();
-            document.getElementById("time").innerText = horaAtual;
-        }
-
-        setInterval(atualizarHora, 1000); // Atualiza a cada segundo
+   
     </script>
+    <script>
+        setInterval(atualizarHora, 1000); // Atualiza a cada segundo
+        modificar__texto(); 
+        modificar__texto2();
+        ipLocal();  
+        
+    </script>
+
 </body>
 
 </html>
+
