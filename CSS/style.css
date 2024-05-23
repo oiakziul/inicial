@@ -214,7 +214,7 @@ body{
 }
 /* sobre @media querry, se a tela chegar nesta resolução ''execute o codigo abaixo' somente quando a condição for verdadeira*/
 @media  (max-width: 1144px) {
-
+    
     .cabecalho{
         padding: 20%;
         text-wrap: nowrap;
@@ -233,14 +233,15 @@ body{
         width: 75%;
         margin-top: -55% ;
     }
-    #time{
-        display: none;
-    }
     .mae-anuncio{
         left: 6%;
     }
   }
   @media (max-width:500px){
+    .cabecalho{
+        padding: 7%;
+        margin-bottom: 3%;
+    }
     .apresentacao__links__navegacao{
         min-width: 80%;
     }
@@ -259,7 +260,10 @@ body{
   .cabecalho__menu{
     display: flex;
     gap: 35px;
-    margin-top:5%;
-    padding: 15%;
-}
+    padding-bottom: 20%;
+    }
+    #time{
+        display: none;
+    }
+    
   }
