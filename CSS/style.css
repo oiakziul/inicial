@@ -4,6 +4,7 @@
     --cor-primaria: linear-gradient(to right, #2c3e50, #000000);
     --cor-secundaria: #F6F6F6;
     --cor-terciaria: #22D4FD;
+    
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
 }
@@ -235,6 +236,9 @@ body{
     .mae-anuncio{
         left: 6%;
     }
+    #time{
+        margin-left: 10%;
+    }
   }
   @media (max-width:500px){
     .cabecalho{
@@ -440,7 +444,7 @@ body{
         float: left;
         position: fixed;
         top: 3.39%;
-        left: 1%;
+        left: 5%;
         animation: fadeIn 4.10s infinite;
     }
     
@@ -450,7 +454,7 @@ body{
         height: 30px;
         border: var(--cor-terciaria) 4px solid;
         box-shadow: 0px 1.90px 10px 4px var(--cor-terciaria);
-    
+        
     }
     #time {
         font-size: 1rem;
@@ -461,6 +465,8 @@ body{
         position: fixed;
         top: 4.46%;
         left: 4%;
+        
+        
     }
     @keyframes fadeIn {
         0% {
@@ -499,6 +505,9 @@ body{
         .mae-anuncio{
             left: 6%;
         }
+        #time{
+            margin-left: 1%;
+        }
       }
       @media (max-width:500px){
         .cabecalho{
@@ -523,7 +532,7 @@ body{
       .cabecalho__menu{
         display: flex;
         gap: 35px;
-        padding-bottom: 20%;
+        padding-bottom: 25%;
         }
         #time{
             position:static;
